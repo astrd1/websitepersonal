@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #logo {
+        height: auto;
+        width: auto;
+        max-width: 500px;
+        min-height: 100px;
+        margin: 200px 0px 0px 0px;
+        /*cómo cambiar el tamaño? - logo temporal, TBC*/
+    }
+
+#slogan {
+    color: #FBF9FA;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 45px;
+    margin: 10px 0px 40px 0px;
+    display:flex;
+    justify-content:center;
+    /*se puede poner un tipo de fuente diferente a la lista?*/
+}
+
+#flecha {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #arrow {
+        height: auto;
+        width: auto;
+        max-width: 50px;
+        min-height: 50px;
+        margin: 70px 0px 132px 0px;        
+    }
+
+
+body {
+    background-image: url(2editedcut.jpg);
+    background-attachment: fixed;
+    width: 38cm;
+    height: 50cm;
+    background-repeat: no-repeat;
+}
+/*#slogan2 {
+    background-color: black;
+    color: #FBF9FA;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    padding: 10px 8px 10px 8px;
+    margin: 0px 0px 50px 0px;
+    display: block;
+}
+Colocar en otra sección*/
+
+#parrafo1 {
+    background-color: black;
+    color: #FBF9FA;;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    font-variant: small-caps;
+    padding: 50px 200px 50px 200px;
+    margin: 0px 0px 200px 0px;
+}
+
+.parrafo {
+    background-color: black;
+    color: #CBE4DE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    font-variant: small-caps;   
+    text-align: center;
+    border-color: white;
+    border-style: dashed;
+}
+/*.h2 {
+    color: #22a7ab;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+a {
+    color: rgb(230, 226, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+} Agregar en otra sección*/
